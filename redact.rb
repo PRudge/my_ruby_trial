@@ -13,7 +13,6 @@ sentence = ""
 
 words.each do |word|
   sentence = sentence + ( (redact_words.include? word) ? "REDACTED" : word) + " "
-
 end
 
 print sentence
